@@ -1,6 +1,6 @@
 # Gesture-controlled robotic arm
 
-A 6-servo robotic arm driven by an **ESP32** that can be controlled in two ways: with **hand gestures read by a webcam** (MediaPipe Hands + OpenCV on a laptop), or with a **handheld remote** (joysticks and push buttons). A 3-position switch on the custom PCB selects which source talks to the arm.
+A 6-servo robotic arm driven by an **ESP32** that can be controlled in two ways: with **hand gestures read by a webcam** (MediaPipe Hands + OpenCV on a laptop). A 3-position switch on the custom PCB selects which source talks to the arm.
 
 Course project for *Taller de Electrónica I* and *Digital III*, Universidad de Ibagué (2023). Shown at **METIE, the 47th student exhibition of Electronic Engineering projects**.
 
@@ -39,9 +39,7 @@ flowchart LR
 
 | | |
 |---|---|
-| Controller | ESP32 WROOM on a custom PCB (75 mm) |
 | Actuators | 6 servomotors (arm joints + gripper) |
-| Remote | 2 joysticks + push buttons, 3D-printed case |
 | Links | USB-C female ports, USB (D+/D−) to TTL adapter |
 | Mode select | 3-position switch: PC / off / remote |
 | Power | 5 V / 12 V |
