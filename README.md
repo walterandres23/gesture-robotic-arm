@@ -1,6 +1,6 @@
 # Gesture-controlled robotic arm
 
-A 6-servo robotic arm driven by an **ESP32** that can be controlled in two ways: with **hand gestures read by a webcam** (MediaPipe Hands + OpenCV on a laptop).
+A 6-servo robotic arm driven by an **ESP32** that can be controlled in two ways: with **hand gestures read by a webcam** (MediaPipe Hands + OpenCV on a laptop). A 3-position switch on the custom PCB selects which source talks to the arm.
 
 Course project for *Taller de Electrónica I* and *Digital III*, Universidad de Ibagué (2023). Shown at **METIE, the 47th student exhibition of Electronic Engineering projects**.
 
